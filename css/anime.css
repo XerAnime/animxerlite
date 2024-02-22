@@ -24,7 +24,7 @@ header {
 }
 
 footer {
-    background: #eb3349;
+    background: #3349eb;
     display: flex;
     flex-wrap: nowrap;
     align-content: center;
@@ -70,7 +70,7 @@ footer a {
 }
 
 h1 {
-    color: #eb3349;
+    color: #3349eb;
     font-family: "Poppins", sans-serif;
 }
 
