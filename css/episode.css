@@ -1915,7 +1915,7 @@ h2 {
 }
 .ep-divo-upper {
     border:none;
-    background-color: skyblue;
+    background-color: lightblue;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
