@@ -24,7 +24,7 @@ header {
 }
 
 footer {
-    background: #3349eb;
+    background: #eb3349;
     display: flex;
     flex-wrap: nowrap;
     align-content: center;
@@ -57,7 +57,7 @@ footer a {
 }
 
 #head-div {
-    background: linear-gradient(to right, #3349eb 40%, #3349eb);
+    background: linear-gradient(to right, #eb3349 40%, #f45c43);
     width: 100%;
     text-align: center;
     padding-top: 25px;
@@ -70,7 +70,7 @@ footer a {
 }
 
 h1 {
-    color: #3349eb;
+    color: #eb3349;
     font-family: "Poppins", sans-serif;
 }
 
@@ -1119,14 +1119,10 @@ h2 {
 
 
 .ep-divo-upper {
-    border:none;
-    background-color: #0076eb;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 5px;
-    padding: 5px 15px;
-    text-align: left;
+    border: none;
+    background-color: orange;
+    margin: 5px 10px 10px 10px;
+    padding: 10px 15px;
 }
 
 .ep-divo-upper option {
@@ -1163,9 +1159,9 @@ h2 {
     padding-top: 5px;
 }
 
-.ep-divo-outer section{
-    display:flex;
-    flex-direction:row;
+.ep-divo-outer section {
+    display: flex;
+    flex-direction: row;
 }
 
 .ep-btn {
@@ -1180,5 +1176,5 @@ h2 {
 }
 
 .ep-btn:hover {
-    background-color: #0076eb;
+    background-color: #eb001f;
 }
