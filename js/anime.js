@@ -252,6 +252,10 @@ async function getEpLowerList(start, end, animeid) {
     document.getElementById('ep-lower-div').innerHTML = html;
 }
 
+async function episodeSelectChange(elem){
+    var option = elem.options[elem.selectedIndex];
+    getEpLowerList(parseInt(option.getAttribute('data-from')),parseInt(option.getAttribute('data-to')),option.getAttribute('data-id'))
+}
 
 // Function to get anime recommendations
 async function getRecommendations(anime_title) {
