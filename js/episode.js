@@ -134,7 +134,6 @@ async function getEpList(anime_id) {
         if (((epnum - 1) % 100) === 0) {
             let epUpperBtnText;
             if ((TotalEp - epnum) < 100) {
-                if ((TotalEp - epnum) < 100) {
                 epUpperBtnText = `${epnum} - ${TotalEp}`;
                 html += `<option class="ep-btn" data-from=${epnum} data-to=${TotalEp} data-id=${animeid}>${epUpperBtnText}</option>`;
 
@@ -171,6 +170,11 @@ async function getEpLowerList(start, end, animeid) {
         }
     }
     document.getElementById('ep-lower-div').innerHTML = html;
+}
+
+async function episodeSelectChange(elem){
+    var option = elem.options[elem.selectedIndex];
+    getEpLowerList(parseInt(option.getAttribute('data-from')),parseInt(option.getAttribute('data-to')),option.getAttribute('data-id'))
 }
 
 // Function to get download links
