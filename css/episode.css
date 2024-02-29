@@ -10,7 +10,7 @@ header {
 }
 
 footer {
-    background: #3349eb;
+    background: #eb3349;
     display: flex;
     flex-wrap: nowrap;
     align-content: center;
@@ -43,7 +43,7 @@ footer a {
 }
 
 #head-div {
-    background: linear-gradient(to right, #3349eb 40%, #3349eb);
+    background: linear-gradient(to right, #eb3349 40%, #f45c43);
     width: 100%;
     text-align: center;
     padding-top: 25px;
@@ -155,7 +155,7 @@ html {
     height: 100%;
     padding: 0px;
     margin: 0px;
-    background-color: #434447;
+    background-color: #14151a;
     background-image: none;
     display: block;
     height: fit-content;
@@ -429,7 +429,7 @@ header {
 }
 
 footer {
-    background: #3349eb;
+    background: #eb3349;
     display: flex;
     flex-wrap: nowrap;
     align-content: center;
@@ -462,7 +462,7 @@ footer a {
 }
 
 #head-div {
-    background: linear-gradient(to right, #3349eb 40%, #3349eb);
+    background: linear-gradient(to right, #eb3349 40%, #f45c43);
     width: 100%;
     text-align: center;
     padding-top: 25px;
@@ -572,7 +572,7 @@ html {
     width: 100%;
     padding: 0px;
     margin: 0px;
-    background-color: #434447;
+    background-color: #14151a;
     background-image: none;
     display: block;
     height: fit-content;
@@ -849,7 +849,7 @@ header {
 }
 
 footer {
-    background: #3349eb;
+    background: #eb3349;
     display: flex;
     flex-wrap: nowrap;
     align-content: center;
@@ -882,7 +882,7 @@ footer a {
 }
 
 #head-div {
-    background: linear-gradient(to right, #3349eb 40%, #3349eb);
+    background: linear-gradient(to right, #eb3349 40%, #f45c43);
     width: 100%;
     text-align: center;
     padding-top: 25px;
@@ -992,7 +992,7 @@ html {
     width: 100%;
     padding: 0px;
     margin: 0px;
-    background-color: #434447;
+    background-color: #14151a;
     background-image: none;
     display: block;
     height: fit-content;
@@ -1914,14 +1914,17 @@ h2 {
     transition: all 0.5s ease;
 }
 .ep-divo-upper {
-    background-color: unset;
+    border:none;
+    background-color: orange;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding-top: 5px;
+    margin: 5px;
+    padding: 5px 15px;
+    text-align: left;
 }
 
-.ep-divo-upper a {
+.ep-divo-upper option {
     width: 120px;
 }
 
@@ -1939,26 +1942,30 @@ h2 {
     max-height: 320px;
     overflow-y: auto;
     background-color: unset;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+    place-items: center;
+    grid-gap: 10px;
     transition: all 0.5s linear;
 }
 
 .ep-divo-outer {
-    background-color: #6a6c6e;
+    background-color: #27272c;
     width: 90%;
     max-width: 770px;
     margin: 20px auto;
     border-radius: 5px;
     padding-top: 5px;
 }
+.ep-divo-outer section{
+    display:flex;
+    flex-direction:row;
+}
 
 .ep-btn {
-    background-color: #19191a;
+    background-color: #454444;
     color: white;
     display: block;
-
 }
 
 .ep-divo-outer h2 {
@@ -1967,5 +1974,5 @@ h2 {
 }
 
 .ep-btn:hover {
-    background-color: #3c7de6;
+    background-color: #eb001f;
 }
