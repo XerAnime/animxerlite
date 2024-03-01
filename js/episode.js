@@ -86,7 +86,7 @@ async function loadServers(servers, success = true) {
     for (let [key, value] of Object.entries(servers)) {
         if (key != 'vidcdn') {
             key = capitalizeFirstLetter(key);
-            if (key == 'ANIMXER PLAYER') {
+            if (key == 'ANIMXERPLAYER') {
                 html += `<div class="sitem"> <a class="sobtn" onclick="selectServer(this,true)" data-value="${value}">${key} - AD Free</a> </div>`;
             } else {
                 html += `<div class="sitem"> <a class="sobtn" onclick="selectServer(this)" data-value="${value}">${key}</a> </div>`;
